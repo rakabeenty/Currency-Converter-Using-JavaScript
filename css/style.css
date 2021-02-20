@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(101, 126, 143);
+}
+  
+  h1,h2{
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    
+  }
+a{
+  color: white;
+}
+.header_div{
+    background-color: rgb(111, 175, 154);
+    padding: 5px;
+    border-radius: 10px;
+}
+.marquee_text{
+  font-size: 20px;
+  color:rgb(189, 186, 192);
+}
+.calculator_space{
+  background-color: rgb(202, 187, 160);
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.currency_img{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+.currency_img img{
+    border-radius: 12px;
+}
+
+.calculator_space h3{
+  color: rgb(20, 20, 20);
+    margin-left: -306px;
+    margin-bottom: -19px;
+}

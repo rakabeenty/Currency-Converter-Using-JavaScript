@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="header_div">
+        <h1>Currency Converter Using JavaScript</h1>
+        <h2>Sk. Sharmin Beenty Amin</h2>
+    </div>
+    <div class="marquee_text">
+        <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+            <p>This Converter is made by Sk. Sharmin Beenty Amin  </p>
+        </marquee>
+    </div>
+    
+
+    <div class="calculator_space">
+        <h3>Input :</h3>
+        <select name="currency" id="convert1" onchange="first()" oninput="first()">
+            
+            <option value="USD1">USD</option>
+            <option value="GBP1">GBP</option>
+            <option value="CAD1">CAD</option>            
+            <option value="EUR1">EUR</option>            
+            <option value="AUD1">AUD</option>            
+
+        </select>
+        <input type="number" id="input" onclick="first()" oninput="first()" placeholder="Enter Your Input">
+        <br /> 
+        <br /> =
+        <br />
+        <h3>Output :</h3>
+        <select name="currency" id="convert2" onchange="first()" oninput="first()">
+           
+            <option value="GBP2">GBP</option>
+            <option value="USD2">USD</option>
+            
+            <option value="CAD2">CAD</option>
+            <option value="EUR2">EUR</option>            
+            <option value="AUD2">AUD</option> 
+
+        </select>
+        <input type="number" id="output" onclick="first()" oninput="first()">
+    </div>
+    <div class="currency_img">
+        <h4>Converter will follow the chart below.....</h4>
+        <img src="./images/currency.png" alt="Currency" srcset="">
+    </div>
+
+</body>
+
+</html>
